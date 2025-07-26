@@ -1,9 +1,47 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="it">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Simulatore Logico</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
-  <body></body>
+  <body>
+    <h2>Simulatore logico digitale (AND, OR, NOT)</h2>
+
+    <div class="container">
+      <div class="buttons">
+        <div>
+          <button id="btnA" class="toggle off" onclick="toggle('A')">
+            OFF
+          </button>
+        </div>
+        <div id="inputB-container">
+          <button id="btnB" class="toggle off" onclick="toggle('B')">
+            OFF
+          </button>
+        </div>
+      </div>
+      <div class="image">
+        <img
+          id="logicImage"
+          src="https://openclipart.org/image/2000px/202692"
+          alt="Circuito logico"
+        />
+      </div>
+      <div class="result">
+        <div class="light"></div>
+      </div>
+    </div>
+    <div class="operations">
+      <select id="operation">
+        <option value="AND">AND</option>
+        <option value="OR">OR</option>
+        <option value="NOT">NOT</option>
+      </select>
+    </div>
+
+    <h3>Risultato: <span id="result">-</span></h3>
+
+    <script src="script.js"></script>
+  </body>
 </html>
