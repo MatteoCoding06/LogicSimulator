@@ -13,26 +13,6 @@
 
 ---
 
-## 🧠 Cosa sono AND, OR e NOT?
-
-| Operazione | Descrizione semplice | Tabella della verità |
-|------------|----------------------|-----------------------|
-| **AND**    | La luce si accende solo se **entrambi** i pulsanti sono ON. | A | B | Risultato |
-|            |                      | 0 | 0 | 0 |
-|            |                      | 0 | 1 | 0 |
-|            |                      | 1 | 0 | 0 |
-|            |                      | 1 | 1 | 1 |
-| **OR**     | La luce si accende se **almeno uno** dei pulsanti è ON. | A | B | Risultato |
-|            |                      | 0 | 0 | 0 |
-|            |                      | 0 | 1 | 1 |
-|            |                      | 1 | 0 | 1 |
-|            |                      | 1 | 1 | 1 |
-| **NOT**    | Inverte lo stato del pulsante A: se è ON, la luce è OFF e viceversa. | A | Risultato |
-|            |                      | 0 | 1 |
-|            |                      | 1 | 0 |
-
----
-
 ## 🎮 Funzionalità
 
 - ✅ Pulsanti ON/OFF per impostare gli ingressi A e B
